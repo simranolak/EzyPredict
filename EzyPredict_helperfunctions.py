@@ -11,6 +11,7 @@ import subprocess
 import time
 import re
 import xmltramp2
+import esm
 
 
 # ## ORF <> UniProt mapping file and functon to convert ORF ids from metabolic model to uniprot IDs
@@ -18,7 +19,7 @@ import xmltramp2
 # In[51]:
 
 
-GenProt_SGD = pd.read_csv('uniprot_allScerevisiae_20230208.tsv', 
+GenProt_SGD = pd.read_csv('./databases/uniprot_allScerevisiae_20230208.tsv', 
                           sep="\t")[["Entry", 
                                      "Gene Names (ordered locus)",
                                      "Gene Names (primary)",
@@ -169,7 +170,7 @@ def parse_pepstats(file_path):
         total_residues = int(header.split()[index_of_to + 1])
 
         for line in lines:
-            if any(keyword in line for keyword in [ "Residues", "Charge", "Isoelectric Point", "A280 Molar", "Improbability"]):
+            if any(keyword in line for keyword in ["Molecular weight", "Residues", "Average Residue Weight", "Charge", "Isoelectric Point", "A280 Molar", "Improbability"]):
                 key_value = line.split('=')
                 if len(key_value) < 2:  # Check to make sure there is both a key and a value
                     continue
