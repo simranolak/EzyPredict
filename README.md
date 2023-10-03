@@ -11,7 +11,7 @@ The accuracy of different EC numbers varies. The dataset also has uneven class n
 
 ## Datasheets and Model Card
 
-- datasheet for the curated dataset : EzyPredict/metadata/Datasheet_for_EzyPredict_Scerevisiae_dataset.pdf
+- datasheet for the curated dataset : EzyPredict/metadata/EzyPredict_dataset_datasheet
 - model card : EzyPredict/metadata/zyPredict_modelcard.md
 
 ## Code 
