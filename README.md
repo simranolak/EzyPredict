@@ -6,7 +6,8 @@ The EzyPredict Dataset and code repository is an attempt to predict EC number of
 
 Datasheets and Model Card are available in :
 
-metadata/
+datasheet for the curated dataset : EzyPredict/metadata/Datasheet_for_EzyPredict_Scerevisiae_dataset.pdf
+model card : EzyPredict/metadata/zyPredict_modelcard.md
 
 To run the code run :
 1 - EzyPredict_1_preparedata.ipynb
