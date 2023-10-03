@@ -1,5 +1,6 @@
 # EzyPredict
-predicting EC numbers from protein data of _Sacchromyces cerevisiae_ enzymes
+
+## Summary
 
 The EzyPredict Dataset and code repository is an attempt to predict EC number of enzymes in the _Saccharomyces cerevisiae_ metabolic model from peptide sequence and protein propertied. It includes UniProtIDs, peptide statistics, ESM2 encodings, and Enzyme Commission labels (up to level 2). This dataset aims to train machine learning models to predict enzyme functions based on sequence and physicochemical properties. While not research-scale, it serves as a valuable exercise in enzyme function prediction. The dataset is limited to _S. cerevisiae_ and not suitable for generalization. It includes exploratory data analysis scripts using PCA and kPCA that were used to set the filtering criteria retrospectively for the datapreparation script. The final model training script trains a neural network with 75% accuracy to predict EC number upto level 2 using the input data.
 
@@ -8,12 +9,14 @@ The accuracy of different EC numbers varies. The dataset also has uneven class n
 
 
 
-Datasheets and Model Card are available in :
+## Datasheets and Model Card
 
-datasheet for the curated dataset : EzyPredict/metadata/Datasheet_for_EzyPredict_Scerevisiae_dataset.pdf
-model card : EzyPredict/metadata/zyPredict_modelcard.md
+- datasheet for the curated dataset : EzyPredict/metadata/Datasheet_for_EzyPredict_Scerevisiae_dataset.pdf
+- model card : EzyPredict/metadata/zyPredict_modelcard.md
 
-To run the code run :
+## Code 
+
+Run in the following sequence :
 
 1 - EzyPredict_1_preparedata.ipynb
 
@@ -21,6 +24,9 @@ To run the code run :
 
 3 - EzyPredict_3_TrainMLmodel.ipynb
 
+EzyPredict_HelperFunctions.py - contains functions imported by 1 and 2 to interconvert between identifiers, fetch ESM2 encodings and pepstats.
+
+## Model Optimisation 
 
 Bayesian Optimisation was carried out to optimise the network
 ![image](https://github.com/simranolak/EzyPredict/assets/19653603/b37aace2-3889-4117-a531-e0bbc5144ce0)
