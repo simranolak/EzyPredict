@@ -29,8 +29,7 @@ EzyPredict_HelperFunctions.py - contains functions imported by 1 and 2 to interc
 ## Model Optimisation 
 
 Bayesian Optimisation was carried out to optimise the network
-![image](https://github.com/simranolak/EzyPredict/assets/19653603/b37aace2-3889-4117-a531-e0bbc5144ce0)
-
+<img width="690" alt="Screenshot 2023-10-03 at 21 48 45" src="https://github.com/simranolak/EzyPredict/assets/19653603/89247062-c6f9-48e6-9cd9-68e16fe15d43">
 
 Before Optimisation : Overall Accuracy - 52.38%
 ![image](https://github.com/simranolak/EzyPredict/assets/19653603/27632bc7-6dc5-43ab-81e0-a552cc09ceb6)
