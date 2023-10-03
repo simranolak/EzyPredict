@@ -10,6 +10,7 @@ datasheet for the curated dataset : EzyPredict/metadata/Datasheet_for_EzyPredict
 model card : EzyPredict/metadata/zyPredict_modelcard.md
 
 To run the code run :
+
 1 - EzyPredict_1_preparedata.ipynb
 
 2 - EzyPredict_2_exploredata.ipynb
