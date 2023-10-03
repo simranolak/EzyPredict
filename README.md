@@ -2,7 +2,7 @@
 
 ## Summary
 
-The EzyPredict Dataset and code repository is an attempt to predict EC number of enzymes in the _Saccharomyces cerevisiae_ metabolic model from peptide sequence and protein propertied. It includes UniProtIDs, peptide statistics, ESM2 encodings, and Enzyme Commission labels (up to level 2). This dataset aims to train machine learning models to predict enzyme functions based on sequence and physicochemical properties. While not research-scale, it serves as a valuable exercise in enzyme function prediction. The dataset is limited to _S. cerevisiae_ and not suitable for generalization. It includes exploratory data analysis scripts using PCA and kPCA that were used to set the filtering criteria retrospectively for the datapreparation script. The final model training script trains a neural network with 75% accuracy to predict EC number upto level 2 using the input data.
+The EzyPredict Dataset and code repository is an attempt to predict EC number of enzymes in the _Saccharomyces cerevisiae_ metabolic model from peptide sequence and protein propertied. It includes UniProtIDs, peptide statistics, ESM2 encodings, and Enzyme Commission labels (up to level 2). This dataset aims to train machine learning models to predict enzyme functions based on sequence and physicochemical properties. While not research-scale, it serves as a valuable exercise in enzyme function prediction. The dataset is limited to _S. cerevisiae_ and not suitable for generalization. It includes exploratory data analysis scripts using PCA and kPCA that were used to set the filtering criteria retrospectively for the datapreparation script. The final model training script trains a neural network with ~75% accuracy to predict EC number upto level 2 using the input data.
 
 The accuracy of different EC numbers varies. The dataset also has uneven class numbers which will be balanced in future iterations.
 
@@ -38,7 +38,7 @@ Bayesian Optimisation was carried out to optimise the number of neurons and lear
 
 ![unoptimised simpleNN](https://github.com/simranolak/EzyPredict/assets/19653603/b6582ced-3acf-4415-a8fc-1ee54a04c14e)
 
-### After Optimisation : Overall Accuracy 75.13%
+### After Optimisation : Overall Accuracy 76.72%
 
 ![image](https://github.com/simranolak/EzyPredict/assets/19653603/6ca65afd-84ba-4f58-be85-81e45b854096)
 ![optimised simpleNN](https://github.com/simranolak/EzyPredict/assets/19653603/18fcea41-3f0f-4e4b-bd75-36a92e486f1d)
