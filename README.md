@@ -33,9 +33,9 @@ Before Optimisation : Overall Accuracy - 52.38%
 ![unoptimised simpleNN](https://github.com/simranolak/EzyPredict/assets/19653603/b6582ced-3acf-4415-a8fc-1ee54a04c14e)
 
 
-After Optimisation : Overall Accuracy 74.6%
+After Optimisation : Overall Accuracy 75.13%
 
-![image](https://github.com/simranolak/EzyPredict/assets/19653603/ecab7158-2b7d-4e26-9ec0-7683ecc5a671)
-
+![image](https://github.com/simranolak/EzyPredict/assets/19653603/6ca65afd-84ba-4f58-be85-81e45b854096)
+![optimised simpleNN](https://github.com/simranolak/EzyPredict/assets/19653603/18fcea41-3f0f-4e4b-bd75-36a92e486f1d)
 
 
