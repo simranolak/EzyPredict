@@ -60,7 +60,7 @@ This dataset should not be used for:
 
 ## Distribution
 
-The dataset can be accessed through the project’s Github repository : https://github.com/simranolak/EzyPredict. It’s a private repository so access will be provided upon request
+The dataset can be accessed through the project’s Github repository : https://github.com/simranolak/EzyPredict. 
 
 UniProt - Creative Commons (CC BY 4.0 LIcence)  (https://www.uniprot.org/help/license )
 Pepstats - Creative Commons (CC0 Licence)  (https://www.ebi.ac.uk/licencing) 
